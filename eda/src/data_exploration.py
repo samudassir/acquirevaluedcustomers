@@ -11,11 +11,11 @@ import numpy as np
 
 
 # Load data
-hist = pd.read_csv("../../data/trainHistory.csv")
+hist = pd.read_csv("../../data/trans_Hist16000.csv")
 
 offers = pd.read_csv("../../data/offers.csv")
 
-trans = pd.read_csv("../../data/test_transactions10000.csv")
+trans = pd.read_csv("../../data/transactions_16000.csv")
 
 
 # replace string with 0 and 1
@@ -27,29 +27,25 @@ hist_offer.head()
 c = Counter()
 
 c.update(hist_offer['repeater'])
+#c.update(pd.Series(y_pred))
 print(c)
 
-lab = []
-valu = []
+labels = ['Non Repeater', 'Repeater']
+sizes = []
 for label, val in c.items():
-    lab.append(label)
+    #lab.append(label)
     valu.append(val)
 
 
 # Pie plot of Train History
 
-labels = ['Non Repeater', 'Repeater']
 sizes = valu
-# only "explode" the 2nd slice (i.e. 'Hogs')
 explode = (0, 0.1)  
-#figure(0)
-#fig1, ax1 = plt.subplots()
 colors = ['#66b3ff','#ffcc99']
 figure(0)
+plt.title("Percent Customer Types")
 plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
         shadow=True, startangle=90, colors=colors)
-# Equal aspect ratio ensures that pie is drawn as a circle
-#ax1.axis('equal')  
 savefig('../../plot/percent_distribution.png', bbox_inches='tight')
 plt.show()
 
@@ -66,10 +62,10 @@ plt.xlabel("Buyer Types")
 _ = plt.rcParams['figure.figsize'] = [20, 15]
 savefig('../../plot/returning_customers.png', bbox_inches='tight')
 plt.show()
-"""
+
 figure(1)
 hist_offer.groupby(["category"])["offervalue"].max().sort_values().plot(kind='barh',color='black', alpha=0.4)#hist_offer.groupby(["category"])["m"].count().sort_values().plot(kind='barh',color='orange')
-plt.title("Categories with returning Customers")
+plt.title("Categories with offered quantity")
 plt.ylabel("Category")
 plt.xlabel("Max quantity")
 _ = plt.rcParams['figure.figsize'] = [20, 15]
@@ -157,5 +153,8 @@ _ = plt.rcParams['figure.figsize'] = [20, 15]
 savefig('../../plot/unpopular_trans_category_purchase_amount.png', bbox_inches='tight')
 plt.show()
 
+del hist_offer['m']
 hist_offer['quantity'] = str(hist_offer['quantity'])
+figure(9)
 sns.heatmap(hist_offer.drop(['id'],axis=1).corr(), square=True, cmap='RdYlGn')
+"""
