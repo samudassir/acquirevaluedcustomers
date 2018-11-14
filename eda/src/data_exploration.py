@@ -11,7 +11,7 @@ import numpy as np
 
 
 # Load data
-hist = pd.read_csv("../../data/trans_Hist16000.csv")
+hist = pd.read_csv("../../data/sample.csv")
 
 offers = pd.read_csv("../../data/offers.csv")
 
@@ -26,8 +26,8 @@ hist_offer.head()
 
 c = Counter()
 
-c.update(hist_offer['repeater'])
-#c.update(pd.Series(y_pred))
+#c.update(hist_offer['repeater'])
+c.update(pd.Series(y_pred))
 print(c)
 
 labels = ['Non Repeater', 'Repeater']
