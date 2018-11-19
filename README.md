@@ -131,7 +131,44 @@ Transactions were extracted for 16K customers out of 160K who were offered a dis
 Feature | Description 
 --- | --- 
 *total_trans_purchaseamount_avg* | `Average purchase amount of individual customer for offered category` 
-1 | 2 
+*12_mnths_total_purchase_amt* | `12 months spending by customer before offerdate`
+*9_mnths_total_purchase_amt* | `9 months spending by customer before offerdate`
+*6_mnths_total_purchase_amt* | `6 months spending by customer before offerdate`
+*3_mnths_total_purchase_amt* | `3 months spending by customer before offerdate`
+*1_mnths_total_purchase_amt* | `1 months spending by customer before offerdate`
+*total_transactions_count* | `Total transactions by customer`
+*total_purchaseamount* | `Total purchase amount by customer`
+*total_purchasequantity* | `Total quantity of items purchased`
+*total_purchase_company_count* | `Total number of purchases of a product belonging to offered company`
+*total_purchase_category_count* | `Total number of purchases of product of the category`
+*purchaseamount_category_avg* | `Average spending on offered category`
+*offeredmonth* | `Month in which offers where give to customers`
+*category_purchased_amt_30days* | `Total purchase amount spent on category in last 30 days before offerdate`
+*category_purchased_qty_30days* | `Total purchased quantity of category in last 30 days before offerdate`
+*category_purchased_amt_90days* | `Total purchase amount spent on category in last 90 days before offerdate`
+*category_purchased_qty_90days* | `Total purchased quantity of category in last 90 days before offerdate`
+*category_purchased_amt_180days* | `Total purchase amount spent on category in last 180 days before offerdate`
+*category_purchased_qty_180days * | `Total purchased quantity of category in last 180 days before offerdate`
+*category_purchased_amt_270days* | `Total purchase amount spent on category in last 270 days before offerdate`
+*category_purchased_qty_270days* | `Total purchased quantity of category in last 270 days before offerdate`
+*company_purchased_amt_30days* | `Total purchase amount spent on product of a company in last 30 days before offerdate`
+*company_purchased_qty_30days* | `Total purchased quantity of product of a company in last 30 days before offerdate`
+*company_purchased_amt_90days* | `Total purchase amount spent on product of a company in last 90 days before offerdate`
+*company_purchased_qty_90days* | `Total purchased quantity of product of a company in last 90 days before offerdate`
+*company_purchased_amt_180days* | `Total purchase amount spent on product of a company in last 180 days before offerdate`
+*company_purchased_qty_180days* | `Total purchased quantity of product of a company in last 180 days before offerdate`
+*company_purchased_amt_270days* | `Total purchase amount spent on product of a company in last 270 days before offerdate`
+*company_purchased_qty_270days* | `Total purchased quantity of product of a company in last 270 days before offerdate`
+*brand_purchased_amt_30days* | `Total purchase amount spent on product of a brand in last 30 days before offerdate`
+*brand_purchased_qty_30days* | `Total purchased quantity of product of a brand in last 30 days before offerdate`
+*brand_purchased_amt_90days* | `Total purchase amount spent on product of a brand in last 90 days before offerdate`
+*brand_purchased_qty_90days* | `Total purchased quantity of product of a brand in last 90 days before offerdate`
+*brand_purchased_amt_180days* | `Total purchase amount spent on product of a brand in last 180 days before offerdate`
+*brand_purchased_qty_180days* | `Total purchased quantity of product of a brand in last 180 days before offerdate`
+*brand_purchased_amt_270days* | `Total purchase amount spent on product of a brand in last 270 days before offerdate`
+*brand_purchased_qty_270days* | `Total purchased quantity of product of a brand in last 270 days before offerdate`
+*purchased_company_category_brand_count* | `Number of times product of offered company, category and brand is purchased`
+*purchased_company_category_count* | `Number of times product of offered company and category is purchased`
 
 
 
