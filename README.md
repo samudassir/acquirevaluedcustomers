@@ -42,7 +42,9 @@ Transaction data has almost 350 million rows of completely anonymized data f
 </p>
 <p>Download data for this project from below (extract the zip file) </p>
 
-[Lets go to Quora](https://www.quora.com)
+[transactions](https://drive.google.com/file/d/1GQDqcLaRgLA7WpPkhTjD6gJ7MsgJDXJJ/view?usp=sharing)
+[history](https://drive.google.com/file/d/1bQEaPp5WWUzMn19SgdpBkx-0FrxMKrss/view?usp=sharing)
+[offers](https://drive.google.com/file/d/187pRzBYddjrSNlInz2R6liHKaQ99j-R-/view?usp=sharing)
 
 
 
@@ -115,9 +117,9 @@ Transactions were extracted for 16K customers out of 160K who were offered a dis
 
 **Figure 7**
 *shows, a correlation matrix which shows correlation between different features.
-•	It can be observed that there is a strong correlation between repeater (true/false) and reteattrips.
-•	There is also some correlation between retreater and category, company, brand, offer.
-•	Market and chain features seems to have little correlation to repeater*
+-	It can be observed that there is a strong correlation between repeater (true/false) and reteattrips.
+-	There is also some correlation between retreater and category, company, brand, offer.
+-	Market and chain features seems to have little correlation to repeater*
 
 ### Predictive Task
 <p>Our predictive task is to predict if the customers who are offered a discount coupon will return and become a repeat buyer.</p>
