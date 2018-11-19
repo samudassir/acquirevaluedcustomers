@@ -30,9 +30,9 @@ All the above aspects of sale are very important, but Renew is extremely critica
 
 ### About Data
 The data set is obtained from Kaggle competition, which is publicly available in [kaggle](https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data)<br>
-<p>Dataset has four relational files:<br>
+Dataset has four relational files:<br>
 - **transactions.csv** - contains transaction history for all customers for a period of at least 1 year prior to their offered incentive
 - **trainHistory.csv** - contains the incentive offered to each customer and information about the behavioral response to the offer
 - **testHistory.csv** - contains the incentive offered to each customer but does not include their response (predicting the repeater column for each id in this file)
 - **offers.csv** - contains information about the offers
-</p>
+
