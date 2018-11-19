@@ -40,3 +40,35 @@ Transaction data has almost 350 million rows of completely anonymized data f
 <p>The size of the dataset is 3GB.</p>
 <p>Due to size constraints, we will choose 16000 customers out of 160K who were given a discount voucher/offer.
 </p>
+
+**Following are the features of the datasets**
+<p>All the fields are anonymized and categorized to protect customer and sales information. The specific meanings of the fields will not be provided (so don't bother asking). Part of the challenge of this competition is learning the taxonomy of items in a data-driven way.</p>
+**Transactions**
+1.	id - A unique id representing a customer
+2.	chain - An integer representing a store chain
+3.	dept - An aggregate grouping of the Category (e.g. water)
+4.	category - The product category (e.g. sparkling water)
+5.	company - An id of the company that sells the item
+6.	brand - An id of the brand to which the item belongs
+7.	date - The date of purchase
+8.	productsize - The amount of the product purchase (e.g. 16 oz of water)
+9.	productmeasure - The units of the product purchase (e.g. ounces)
+10.	purchasequantity - The number of units purchased
+11.	purchaseamount - The dollar amount of the purchase
+
+**History**
+1.	id - A unique id representing a customer
+2.	chain - An integer representing a store chain
+3.	offer - An id representing a certain offer
+4.	market - An id representing a geographical region
+5.	repeattrips - The number of times the customer made a repeat purchase
+6.	repeater - A boolean, equal to repeattrips > 0
+7.	offerdate - The date a customer received the offer
+
+**Offers**
+1.	offer - An id representing a certain offer 
+2.	category - The product category
+3.	quantity - The number of units one must purchase to get the discount
+4.	company - An id of the company that sells the item
+5.	offervalue - The dollar value of the offer
+6.	brand - An id of the brand to which the item belongs
