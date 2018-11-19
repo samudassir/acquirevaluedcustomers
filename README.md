@@ -101,5 +101,37 @@ Transactions were extracted for 16K customers out of 160K who were offered a dis
 **Figure 5**
 *shows, a bar chart shows top 25 popular categories based on purchase amounts spent.*
 
+![alt text](plot/offer_category_most_returntrips.png)
+
+**Figure 6**
+*shows, a bar chart shows categories with number of returning customers based on purchase amount.*
+
+![alt text](plot/feature_correlation_1.png)
+
+**Figure 7**
+*shows, a correlation matrix which shows correlation between different features.
+•	It can be observed that there is a strong correlation between repeater (true/false) and reteattrips.
+•	There is also some correlation between retreater and category, company, brand, offer.
+•	Market and chain features seems to have little correlation to repeater*
+
+### Predictive Task
+<p>Our predictive task is to predict if the customers who are offered a discount coupon will return and become a repeat buyer.</p>
+
+**Baseline**
+<p>We establish base lines with given train history of customer who were offered discount offers.<br>
+<p>Logistic regression with 5-fold cross validation will result in AUC score of 0.5290.</p>
+
+**Validation** 
+<p>We will be validating our model and tuning the hyperparameters using a 5-fold cross validation. We randomly shuffled our data set and used 1/3 of the data points as test set. We partitioned the remaining data set into 5 splits. In each of the 5 iterations we trained our model on 4 splits and calculated the AUC score on the remaining split. Based on the average of 5 AUC, we fine-tuned our hyper parameters.</p>
+
+**Feature Extraction**
+<p>Based on above correlation matrix, the features which not correlated with target are excluded from model building.</p>
+<p>Below features are extracted from provided dataset</p>
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 
 
