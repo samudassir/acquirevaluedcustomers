@@ -35,4 +35,8 @@ Dataset has four relational files:<br>
 - **trainHistory.csv** - contains the incentive offered to each customer and information about the behavioral response to the offer
 - **testHistory.csv** - contains the incentive offered to each customer but does not include their response (predicting the repeater column for each id in this file)
 - **offers.csv** - contains information about the offers
-
+<p>
+Transaction data has almost 350 million rows of completely anonymized data from over 300,000 shoppers along with offer information and History of offers given to customers.<br>
+The size of the dataset if 3GB.<br>
+Due to size constraints, we will choose 16000 customers out of 160K who were given a discount voucher/offer.<br>
+</p>
