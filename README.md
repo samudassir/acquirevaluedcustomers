@@ -77,3 +77,29 @@ Transaction data has almost 350 million rows of completely anonymized data f
 ### Data Exploration
 Transactions were extracted for 16K customers out of 160K who were offered a discount coupon.
 ![alt text](plot/percent_distribution.png)
+
+**Figure 1**
+*Figure 1 shows, the histogram of returning customer distribution, we can see approximately 27% of customers have repeated purchase when given a discount*
+
+![alt text](plot/popular_trans_category.png)
+
+**Figure 2**
+*Figure 2 shows, a bar chart of top 25 categories with high transactions.*
+
+![alt text](plot/popular_offer_category.png)
+
+**Figure 3**
+*Figure 3 shows, a bar chart with number of customers to which each offer has been given.*
+
+![alt text](plot/popular_category.png)
+
+**Figure 4**
+*Figure 4 shows, a bar chart with percentage of offers given for each of the categories.*
+
+![alt text](plot/popular_trans_category_purchase_amount.png)
+
+**Figure 5**
+*Figure 5 shows, a bar chart shows top 25 popular categories based on purchase amounts spent.*
+
+
+
