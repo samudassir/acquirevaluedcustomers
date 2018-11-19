@@ -6,6 +6,7 @@ Businesses often face a challenge of retaining customers and converting them to 
   We use completely anonymized transactional data of customers along with offer details and History of offers given to customers.
   We will use the data to build a machine learning model and predict customers who will be repeat purchase of items when discounts are offered based on different features.
 </p>
+
 ### Introduction
 <p>
 Background
