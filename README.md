@@ -199,6 +199,6 @@ Model | AUC
 ### Conclusion
 
 **Factors Influencing customers to repeat purchases**
-¬	Average customer spending
-¬	Recent Purchase trends of customer
-¬	History of Category, Company, Brand purchases by customer
+-	Average customer spending
+-	Recent Purchase trends of customer
+-	History of Category, Company, Brand purchases by customer
