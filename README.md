@@ -148,7 +148,7 @@ Feature | Description
 *category_purchased_amt_90days* | `Total purchase amount spent on category in last 90 days before offerdate`
 *category_purchased_qty_90days* | `Total purchased quantity of category in last 90 days before offerdate`
 *category_purchased_amt_180days* | `Total purchase amount spent on category in last 180 days before offerdate`
-*category_purchased_qty_180days * | `Total purchased quantity of category in last 180 days before offerdate`
+*category_purchased_qty_180days* | `Total purchased quantity of category in last 180 days before offerdate`
 *category_purchased_amt_270days* | `Total purchase amount spent on category in last 270 days before offerdate`
 *category_purchased_qty_270days* | `Total purchased quantity of category in last 270 days before offerdate`
 *company_purchased_amt_30days* | `Total purchase amount spent on product of a company in last 30 days before offerdate`
@@ -170,5 +170,35 @@ Feature | Description
 *purchased_company_category_brand_count* | `Number of times product of offered company, category and brand is purchased`
 *purchased_company_category_count* | `Number of times product of offered company and category is purchased`
 
+### Models
+<p>We run different models to predict the repeat buyers, we explored different types of parametric models based on the features mentioned above. Since this is a classification problem, we will choose a classifier that can efficiently train our model, while considering that we have 16000 customer data in our training set and around 60 features.</p>
 
+### Evaluating the Model
+We will be evaluating the model on the AUC Score.
+AUC stands for "Area under the ROC Curve." That is, AUC measures the entire two-dimensional area underneath the ROC curve.
 
+AUC is the probability that the model ranks a random positive example more highly than a random negative.
+
+### Logistic Regression 
+Logistic regression measures the relationship between the categorical dependent variable and one or more independent variables by estimating probabilities using a logistic function, which is the cumulative logistic distribution. 
+In simple terms, Logistic regression predicts class (0|1) for specified sample, by drawing a line in feature space that divides the '1' samples from the '0' samples. In other words, we wish to find the "regression" line which divides the samples.
+
+### Decision Tree Classifier
+A decision trees are a non-parametric supervised learning method, the goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
+
+### Random Forest
+A random forest is a meta estimator that fits several classifying decision trees on various sub-samples of the dataset. To improve the predictive accuracy and control over-fitting, averaging is used. We trained our model using Sklearn random forest library for different values of n_estimators
+
+### Results
+Model | AUC 
+--- | --- 
+*Logistic Regression* | `0.5290` 
+*Decision Tree* | `0.5621`
+*Random Forest* | `0.6599`
+
+### Conclusion
+
+**Factors Influencing customers to repeat purchases**
+¬	Average customer spending
+¬	Recent Purchase trends of customer
+¬	History of Category, Company, Brand purchases by customer
