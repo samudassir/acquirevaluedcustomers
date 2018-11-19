@@ -16,3 +16,7 @@ LAER is a sales term used in any business
 </p>
 
 ![alt text](plot/LAER.png)
+-	Land: “All sales and marketing activities required to land the first sale of a solution to a new customer.” When you land the customer, you've successfully convinced the prospect to become a new customer of yours.
+-	Adopt: “All activities involved in making sure the customer is successfully adopting and expanding their use of the solution.” This is the step where you help the customer that just bought your product.
+-	Expand: “All activities required to cost-effectively help current customers expand their spending as usage increases, including both cross-selling and upselling.” As you become more invested in the customer’s outcomes, it becomes easier to tie your technology to other projects and initiatives, encouraging your customers to buy more products and services from you the supplier.
+- Renew: “All activities required to ensure the customer renews their contract(s).” Convincing your customer to renew their relationship with you when it comes time to repurchase.
