@@ -203,6 +203,8 @@ Model | AUC
 *Decision Tree* | `0.5621`
 *Random Forest* | `0.6599`
 
+*Results shows `Random Forest` gives better results predicting the repeating customers when discount is offered.*
+
 ### Conclusion
 
 **Factors Influencing customers to repeat purchases**
