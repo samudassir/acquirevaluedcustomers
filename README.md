@@ -37,6 +37,6 @@ Dataset has four relational files:<br>
 - **offers.csv** - contains information about the offers
 <p>
 Transaction data has almost 350 million rows of completely anonymized data from over 300,000 shoppers along with offer information and History of offers given to customers.</p>
-<p>The size of the dataset if 3GB.</p>
+<p>The size of the dataset is 3GB.</p>
 <p>Due to size constraints, we will choose 16000 customers out of 160K who were given a discount voucher/offer.
 </p>
