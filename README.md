@@ -20,3 +20,10 @@ LAER is a sales term used in any business
 -	**Adopt**: “All activities involved in making sure the customer is successfully adopting and expanding their use of the solution.” This is the step where you help the customer that just bought your product.
 -	**Expand**: “All activities required to cost-effectively help current customers expand their spending as usage increases, including both cross-selling and upselling.” As you become more invested in the customer’s outcomes, it becomes easier to tie your technology to other projects and initiatives, encouraging your customers to buy more products and services from you the supplier.
 - **Renew**: “All activities required to ensure the customer renews their contract(s).” Convincing your customer to renew their relationship with you when it comes time to repurchase.
+
+<p>
+All the above aspects of sale are very important, but Renew is extremely critical for businesses to operate in long run.</p>
+<p>Related to this is our project where store provides its customers with a discount offer and we will be predicting the possibility of customer returning to the store and buying the same item.</p>
+<p>This will be a classification problem where a customer will repeat the purchase or will not be repeating the purchase.</p>
+<p>We will be doing feature extraction and applying different machine learning models to derive AUC Score.
+</p>
