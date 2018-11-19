@@ -13,4 +13,6 @@ Background
 Technology has created a huge shift in the way customers can buy products, to adapt to this change consumer brands are also changing their business models to acquire customers.
 Consumer brands often offer discounts to attract new shoppers to buy their products. The most valuable customers are those who return after this initial incented purchase.  With enough purchase history, it is possible to predict which shoppers, when presented an offer, will buy a new item.
 LAER is a sales term used in any business
-![picture](plot/LAER.png)</p>
+</p>
+
+![alt text](plot/LAER.png)
