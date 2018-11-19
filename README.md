@@ -128,10 +128,10 @@ Transactions were extracted for 16K customers out of 160K who were offered a dis
 <p>Based on above correlation matrix, the features which not correlated with target are excluded from model building.</p>
 <p>Below features are extracted from provided dataset</p>
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Feature | Description 
+--- | --- 
+*total_trans_purchaseamount_avg* | `Average purchase amount of individual customer for offered category` 
+1 | 2 
 
 
 
