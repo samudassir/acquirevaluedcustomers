@@ -40,11 +40,12 @@ Transaction data has almost 350 million rows of completely anonymized data f
 <p>The size of the dataset is 3GB.</p>
 <p>Acquired dataset of 300K customer is reduced to manageable size of randomly picked 16000 customer records for EDA and Model building.
 </p>
-<div>Download data for this project from below (extract the zip file) <br>
-    [transactions](https://drive.google.com/file/d/1GQDqcLaRgLA7WpPkhTjD6gJ7MsgJDXJJ/view?usp=sharing)<br>
-    [history](https://drive.google.com/file/d/1bQEaPp5WWUzMn19SgdpBkx-0FrxMKrss/view?usp=sharing)<br>
-    [offers](https://drive.google.com/file/d/187pRzBYddjrSNlInz2R6liHKaQ99j-R-/view?usp=sharing)<br>
-    </div>
+<p>Download data for this project from below (extract the zip file) </p>
+    - ![transactions](https://drive.google.com/file/d/1GQDqcLaRgLA7WpPkhTjD6gJ7MsgJDXJJ/view?usp=sharing)<br>
+    - ![history](https://drive.google.com/file/d/1bQEaPp5WWUzMn19SgdpBkx-0FrxMKrss/view?usp=sharing)<br>
+    - ![offers](https://drive.google.com/file/d/187pRzBYddjrSNlInz2R6liHKaQ99j-R-/view?usp=sharing)<br>
+
+
 
 **Following are the features of the datasets**
 <p>All the fields are anonymized and categorized to protect customer and sales information. The specific meanings of the fields will not be provided (so don't bother asking). Part of the challenge of this competition is learning the taxonomy of items in a data-driven way.</p>
