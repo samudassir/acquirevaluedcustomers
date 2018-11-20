@@ -117,7 +117,7 @@ Transactions were extracted for randomly selected 16K customers from given data 
 ![alt text](plot/feature_correlation_1.png)
 
 **Figure 7**
-*shows, a correlation matrix which shows correlation between different features.
+*shows, a correlation matrix which shows correlation between different features.*
 -	It can be observed that there is a strong correlation between repeater (true/false) and reteattrips.
 -	There is also some correlation between retreater and category, company, brand, offer.
 -	Market and chain features seems to have little correlation to repeater*
