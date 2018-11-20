@@ -138,7 +138,7 @@ Transactions were extracted for randomly selected 16K customers from given data 
 
 Feature | Description 
 --- | --- 
-*total_trans_purchaseamount_avg* | `Average purchase amount of individual customer for offered category` 
+*total_trans_purchaseamount_avg* | `Average purchase amount of individual customer` 
 *12_mnths_total_purchase_amt* | `12 months spending by customer before offerdate`
 *9_mnths_total_purchase_amt* | `9 months spending by customer before offerdate`
 *6_mnths_total_purchase_amt* | `6 months spending by customer before offerdate`
