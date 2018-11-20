@@ -1,17 +1,17 @@
 # Acquire Valued Customers
 
-### Abstract
+## Abstract
 <p>
 Businesses often face a challenge of retaining customers and converting them to be regular purchaser. As a Businesses strategy, companies and stores run discounted sales programs to attract more customers to be repeat purchasers and improve overall sales of the company.
   We use completely anonymized transactional data of customers along with offer details and History of offers given to customers.
   We will use the data to build a machine learning model and predict customers who will be repeat purchase of items when discounts are offered based on different features.
 </p>
 
-### Introduction
+## Introduction
 ### Background
 <p>
 
-Technology has created a huge shift in the way customers can buy products, to adapt to this change consumer brands are also changing their business models to acquire customers.
+Technology has created a huge shift in the way customers can buy products, to adapt to this change consumer brands are also changing their business models to acquire customers.<br>
 Consumer brands often offer discounts to attract new shoppers to buy their products. The most valuable customers are those who return after this initial incented purchase.  With enough purchase history, it is possible to predict which shoppers, when presented an offer, will buy a new item.<br>
 LAER is a sales term used in any business
 </p>
@@ -122,8 +122,8 @@ Transactions were extracted for 16K customers out of 160K who were offered a dis
 -	There is also some correlation between retreater and category, company, brand, offer.
 -	Market and chain features seems to have little correlation to repeater*
 
-### Predictive Task
-<p>Our predictive task is to predict if the customers who are offered a discount coupon will return and become a repeat buyer.</p>
+## Predictive Task
+<p>Our task is to predict if the customers who were offered a discount coupon will return and purchase the same item.</p>
 
 **Baseline**
 <p>We establish base lines with given train history of customer who were offered discount offers.<br>
@@ -197,7 +197,7 @@ A decision trees are a non-parametric supervised learning method, the goal is to
 ### Random Forest
 A random forest is a meta estimator that fits several classifying decision trees on various sub-samples of the dataset. To improve the predictive accuracy and control over-fitting, averaging is used. We trained our model using Sklearn random forest library for different values of n_estimators
 
-### Results
+## Results
 Model | AUC 
 --- | --- 
 *Logistic Regression* | `0.5290` 
