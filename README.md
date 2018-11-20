@@ -87,7 +87,7 @@ Transactions were extracted for randomly selected 16K customers from given data 
 ![alt text](plot/percent_distribution.png)
 
 **Figure 1**
-*shows, the histogram of returning customer distribution, we can see approximately 27% of customers have repeated purchase when given a discount*
+*shows, the pie chart of percentage of repeating and non repeating customers, we can see approximately 27% of customers have repeated purchase when given a discount from given data*
 
 ![alt text](plot/popular_trans_category.png)
 
