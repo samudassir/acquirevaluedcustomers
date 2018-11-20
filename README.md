@@ -207,6 +207,7 @@ Model | AUC
 *Results shows `Random Forest` gives better results predicting the repeating customers when discount is offered.*
 
 ### Conclusion
+![alt text](plot/random_forest_feature_importance.png)
 
 **Factors Influencing customers to repeat purchases**
 -	Average customer spending
