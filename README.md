@@ -82,8 +82,8 @@ Transaction data has almost 350 million rows of completely anonymized data f
 5.	offervalue - The dollar value of the offer
 6.	brand - An id of the brand to which the item belongs
 
-### Data Exploration
-Transactions were extracted for 16K customers out of 160K who were offered a discount coupon.
+## Data Exploration
+Transactions were extracted for randomly selected 16K customers from given data of customers who were offered a discount coupon.
 ![alt text](plot/percent_distribution.png)
 
 **Figure 1**
