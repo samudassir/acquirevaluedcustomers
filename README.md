@@ -53,15 +53,15 @@ Transaction data has almost 350 million rows of completely anonymized data f
 <p>All the fields are anonymized and categorized to protect customer and sales information. The specific meanings of the fields will not be provided (so don't bother asking). Part of the challenge of this competition is learning the taxonomy of items in a data-driven way.</p>
 
 **Transactions**
-1. id - A unique id representing a customer
-2. chain - An integer representing a store chain
-3. dept - An aggregate grouping of the Category (e.g. water)
-4. category - The product category (e.g. sparkling water)
-5. company - An id of the company that sells the item
-6. brand - An id of the brand to which the item belongs
-7. date - The date of purchase
-8. productsize - The amount of the product purchase (e.g. 16 oz of water)
-9. productmeasure - The units of the product purchase (e.g. ounces)
+1.  id - A unique id representing a customer
+2.  chain - An integer representing a store chain
+3.  dept - An aggregate grouping of the Category (e.g. water)
+4.  category - The product category (e.g. sparkling water)
+5.  company - An id of the company that sells the item
+6.  brand - An id of the brand to which the item belongs
+7.  date - The date of purchase
+8.  productsize - The amount of the product purchase (e.g. 16 oz of water)
+9.  productmeasure - The units of the product purchase (e.g. ounces)
 10. purchasequantity - The number of units purchased
 11. purchaseamount - The dollar amount of the purchase
 
