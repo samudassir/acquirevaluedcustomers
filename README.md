@@ -52,6 +52,8 @@ Transaction data has almost 350 million rows of completely anonymized data f
 **Following are the features of the datasets**
 <p>All the fields are anonymized and categorized to protect customer and sales information. The specific meanings of the fields will not be provided (so don't bother asking). Part of the challenge of this competition is learning the taxonomy of items in a data-driven way.</p>
 
+1. test
+
 **Transactions**
 1.  id - A unique id representing a customer
 2.  chain - An integer representing a store chain
